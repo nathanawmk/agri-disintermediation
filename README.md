@@ -12,6 +12,9 @@ TODO:
 - Retailer A
 - Retailer B
 
+Producer <-> Distributor A
+Producer <-> Distributor B
+
 2. Define Asset
 - Durians (My Favourite Fruit!)
 
