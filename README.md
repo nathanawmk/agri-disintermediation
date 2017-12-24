@@ -1,6 +1,7 @@
 # agri-disintermediation
-agricultural disintermediation - Giving power back to the rightful owners -- those who grow the crops 
-First ever Hyperledger-Based Blockchain in the world to disintermediate the durian distribution supply chain. (It is amazing!)
+agricultural disintermediation
+- Giving power back to the rightful owners: those who grow the crops 
+- First ever Hyperledger-Based Blockchain in the world to disintermediate the durian distribution supply chain. (It is amazing!)
 
 TODO:
 1. Add 7 peers with multiple channels - est. 6 
@@ -16,6 +17,7 @@ TODO:
 Channels 
 - Producer <-> Distributor A
 - Producer <-> Distributor B
+
 
 2. Define Asset
 - Durians (My Favourite Fruit!)
