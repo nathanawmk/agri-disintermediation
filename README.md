@@ -1,5 +1,6 @@
 # agri-disintermediation
 agricultural disintermediation - Giving power back to the rightful owners -- those who grow the crops 
+First ever Hyperledger-Based Blockchain in the world to disintermediate the durian distribution supply chain. (It is amazing!)
 
 TODO:
 1. Add 7 peers with multiple channels - est. 6 
@@ -12,8 +13,9 @@ TODO:
 - Retailer A
 - Retailer B
 
-Producer <-> Distributor A
-Producer <-> Distributor B
+Channels 
+- Producer <-> Distributor A
+- Producer <-> Distributor B
 
 2. Define Asset
 - Durians (My Favourite Fruit!)
@@ -21,6 +23,8 @@ Producer <-> Distributor B
 3. Evoke API via node js to retrieve the number of durians in the supply chain (E.g.,Channel A), no. of durians to sell to Distributors, Distributors to WholeSalers, i.e., move the durians around
 
 4. Build a Angular UI to evoke these APIs 
+
+5. Misc
 
 - https://sg.linkedin.com/in/awnathan
 
