@@ -1,0 +1,41 @@
+nathan@nathan-VirtualBox:~/10122017/fabric-samples/first-network$ ./byfn.sh -m generate
+Generating certs and genesis block for with channel 'mychannel' and CLI timeout of '10'
+Continue (y/n)? y
+proceeding ...
+/home/nathan/10122017/fabric-samples/first-network/../bin/cryptogen
+
+##########################################################
+##### Generate certificates using cryptogen tool #########
+##########################################################
+org1.example.com
+org2.example.com
+
+/home/nathan/10122017/fabric-samples/first-network/../bin/configtxgen
+##########################################################
+#########  Generating Orderer Genesis block ##############
+##########################################################
+2017-12-25 17:31:47.570 +08 [common/configtx/tool] main -> INFO 001 Loading configuration
+2017-12-25 17:31:47.625 +08 [common/configtx/tool] doOutputBlock -> INFO 002 Generating genesis block
+2017-12-25 17:31:47.640 +08 [common/configtx/tool] doOutputBlock -> INFO 003 Writing genesis block
+
+#################################################################
+### Generating channel configuration transaction 'channel.tx' ###
+#################################################################
+2017-12-25 17:31:47.653 +08 [common/configtx/tool] main -> INFO 001 Loading configuration
+2017-12-25 17:31:47.661 +08 [common/configtx/tool] doOutputChannelCreateTx -> INFO 002 Generating new channel configtx
+2017-12-25 17:31:47.661 +08 [common/configtx/tool] doOutputChannelCreateTx -> INFO 003 Writing new channel tx
+
+#################################################################
+#######    Generating anchor peer update for Org1MSP   ##########
+#################################################################
+2017-12-25 17:31:47.691 +08 [common/configtx/tool] main -> INFO 001 Loading configuration
+2017-12-25 17:31:47.706 +08 [common/configtx/tool] doOutputAnchorPeersUpdate -> INFO 002 Generating anchor peer update
+2017-12-25 17:31:47.706 +08 [common/configtx/tool] doOutputAnchorPeersUpdate -> INFO 003 Writing anchor peer update
+
+#################################################################
+#######    Generating anchor peer update for Org2MSP   ##########
+#################################################################
+2017-12-25 17:31:47.739 +08 [common/configtx/tool] main -> INFO 001 Loading configuration
+2017-12-25 17:31:47.769 +08 [common/configtx/tool] doOutputAnchorPeersUpdate -> INFO 002 Generating anchor peer update
+2017-12-25 17:31:47.773 +08 [common/configtx/tool] doOutputAnchorPeersUpdate -> INFO 003 Writing anchor peer update
+
