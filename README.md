@@ -2,6 +2,7 @@
 agricultural disintermediation
 - Giving power back to the rightful owners: those who grow the crops 
 - First ever Hyperledger-Based Blockchain in the world to disintermediate the durian distribution supply chain. (It is amazing!)
+- At first sight, the supply chain looks the same with the same old players. i.e., no disintermediation -- However, what is different this time is the producers (farmers) has visibility into the different networks (channels) as they are part of them. With this visibility, farmers can price their durians fairly and not be at the mercy of the distributors, wholesalers and retailers. 
 
 TODO:
 1. Add 7 peers with multiple channels - est. 6 
